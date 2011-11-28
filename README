@@ -2,12 +2,15 @@ Overview
 ========
 This is a self extraction achive that helps to install pre-installation
 requirement for euca2ool on windows. 
+The package installs 32 bit packages only. But windows 64bit supports 32bit
+
 This files only works for default installation settings
 Test is done on a clean English XP SP3 only.
+
 User are still expected to manually get their credentials, generate their access keys
 required for euca2ool (see Setting Up Euca2ools and FireFox ElasticFox on Windows.doc document)
 User are still expected to properly configure their euca2ool to point to where things are.  
-User are still expected to install and configure firefox extension for elasticfox
+User are still expected to install and configure firefox extension for Elasticfox
 
 Repository Directories
 ======================
@@ -19,9 +22,11 @@ Repository Directories
 
 Basic Steps
 ============
+* Works best on a clean windows system xp sp3 and above.
 * Make sure you have adminstration or elevated user rights to install
   applications on your local system
 * Copy to a folder then click on Euca2oolsWin32.exe
+* The package installs 32bit, so make sure anything you need to download (e.g. euca2ool) is 32bit.
 * After extraction, on command prompt or click on install.bat
 * Follow the instructions and accept ALL DEFAULT SETTINGS
 * Follow the remaining steps in Setting Up Euca2ools and FireFox ElasticFox on Windows.doc
